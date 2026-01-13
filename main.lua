@@ -148,7 +148,7 @@ function colorize_log(msg)
     return t
 end
 
--- --- CORE ---
+-- --- CORE! ---
 
 function log(msg)
     table.insert(state.logs, "[" .. os.date("%H:%M:%S") .. "] " .. tostring(msg))
@@ -198,7 +198,7 @@ function normalize_project(decoded)
     return project
 end
 
--- ============================================================
+-- lol=======================================================lol
 
 function get_char_at_x(line_str, target_x, scale)
     local font = ui.get_font()
@@ -539,14 +539,14 @@ function export_project()
         end
         
     else
-        -- Linux/Mac: Create root dir and subdirs
+        -- Linux/Mac: Create root dir and subdirs, I need to test this. 
         os.execute('mkdir -p "' .. full_path .. '"')
         for dir, _ in pairs(dirs_to_create) do
             os.execute('mkdir -p "' .. full_path .. '/' .. dir .. '"')
         end
     end
     
-    -- Write temp files and copy them
+    -- Write temp files and copy them, This has been a pretty crappy way of going about things. We need to think. By default, LÖVE2D is designed to only write to its own "SaveDirectory" for security reasons. 
     for i, file in ipairs(state.project.files) do
         local temp_name = "temp_" .. i .. ".dat"
         love.filesystem.write(temp_name, file.content)
@@ -620,7 +620,7 @@ function love.mousepressed(x, y, button)
             return
         end
         
-        -- Scroll Bar Check (Priority Over Selection)
+        -- Scroll Bar Check (Priority Over Selection, hopefully this fixes scrollbar. )
         local bx, by, bw, bh = get_editor_metrics()
         if x > w - 20 and y > 40 and y < 40 + bh then 
             state.scrollbar_dragging = true 
@@ -726,7 +726,7 @@ function draw_editor(w, h)
     
     ui.print("Support me", sx + 6, sy + 3, s_scale)
     local txt_w = ui.width("Support me", s_scale)
-    ui.draw_heart(sx + 6 + txt_w + 5, sy + 5.5, h_size, h_size) -- Moved to 5.5 (down 0.5 more from 5)
+    ui.draw_heart(sx + 6 + txt_w + 5, sy + 5.5, h_size, h_size) 
     
     -- File List
     for i, file in ipairs(state.project.files) do
@@ -737,7 +737,6 @@ function draw_editor(w, h)
         end
         love.graphics.setColor(1, 1, 1)
         
-        -- == MODIFIED SECTION: Truncate and Lowercase ==
         local f_name = file.filename:lower()
         local max_w = sidebar_w - 30
         
@@ -860,4 +859,5 @@ function draw_console(w, h)
             ui.print(colored, 10, log_y, 2) 
         end
     end
+
 end
