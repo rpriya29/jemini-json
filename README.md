@@ -49,6 +49,9 @@
     *(Note: On Windows, you can typically drag the project folder onto `love.exe`)*
 ## Electron Installer
 - **Source**: https://github.com/nicholasxdavis/jemini-installer
+  
+  Jemini-Json is built using LÖVE2D (Lua) for the core application, UI rendering, and filesystem logic.
+The installation and distribution process is handled through Electron, which wraps the app in a standard desktop installer and manages setup, file placement, and system integration during install.
 ## Usage 
 
  - **Import**: Drag and drop a valid JSON file (formatted with `project_name` and `files` array) into the Jemini window.
