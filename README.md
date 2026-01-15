@@ -16,6 +16,8 @@
   </a>
 </p>
 
+### How to use it
+- [YouTube](https://www.youtube.com/watch?v=EjossbQ1puw/)
 ## Features
 
  - **JSON to Project**: Instantly convert a flat JSON structure into a fully materialized file system hierarchy.
