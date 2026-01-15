@@ -47,7 +47,8 @@
     love .
     ```
     *(Note: On Windows, you can typically drag the project folder onto `love.exe`)*
-
+## Electron Installer
+- **Source**: https://github.com/nicholasxdavis/jemini-installer
 ## Usage 
 
  - **Import**: Drag and drop a valid JSON file (formatted with `project_name` and `files` array) into the Jemini window.
@@ -59,4 +60,6 @@
 ## Credits and tools used
 
  - [LÖVE 2D](https://love2d.org/)
+ - [Electron](https://www.electronjs.org/)
+ - [Minecraftia Font](https://www.dafont.com/minecraftia.font)
  - [GPL-3.0 License](LICENSE) — Copyright (c) 2026 Nicholas Davis
